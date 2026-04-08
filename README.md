@@ -66,6 +66,7 @@ The project follows a clean structure to separate the business rules from the us
 - `backend/services/`: Contains the business logic for managing books and loans.
 - `backend/repository/`: Handles data storage.
 - `frontend/`: Contains the CLI menus and user interaction logic.
+- `data/`: Directory where persistent files are stored.
 
 ---
 

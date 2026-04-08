@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from domain.enums.book_status_enum import BookStatusEnum
+from backend.domain.enums import BookStatusEnum
 
 
 @dataclass(slots=True, kw_only=True)

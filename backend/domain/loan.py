@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from datetime import datetime
 
-from domain.enums.loan_status_enum import LoanStatusEnum
+from backend.domain.enums import LoanStatusEnum
 
 
 @dataclass(slots=True, kw_only=True)
