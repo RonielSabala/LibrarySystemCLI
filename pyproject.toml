@@ -13,6 +13,8 @@ dev = ["pyright>=1.1.408", "ruff>=0.15.0"]
 [tool.pyright]
 venv = ".venv"
 venvPath = "."
+pythonPath = ".venv/Scripts/python.exe"
+extraPaths = ["."]
 typeCheckingMode = "standard"
 
 [tool.ruff]
