@@ -51,7 +51,7 @@ uv sync
 From the **repo root**:
 
 ```Bash
-uv run python frontend/main.py
+uv run python -m frontend.main
 ```
 
 Use `Ctrl+C` to exit the application at any time.
